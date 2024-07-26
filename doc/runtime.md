@@ -484,7 +484,7 @@ and import the properties/functions of this object into a ScriptObject, via `Scr
   var template = Template.Parse("This is Hello: `{{hello}}`");
   var result = template.Render(context);
   
-  // Prints This is MyFunctions.Hello: `hello from method!`
+  // Prints This is MyFunctions.Hello: `hello from property!`
   Console.WriteLine(result);
   ```
 
